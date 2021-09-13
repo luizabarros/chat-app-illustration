@@ -11,7 +11,7 @@ A frontend mentor challenge to use HTML, CSS to make a chat app illustration.
 <img src="images/final-imgs/desktop-version.png" alt="Web Version"/>
 
 ### Mobile Version
-<img src="images/final-imgs/mobile-version.png" alt="Mobile Version"/>
+<img src="images/final-imgs/mobile-version.jpg" alt="Mobile Version"/>
 
 ## 🚀 Starting
 
