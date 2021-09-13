@@ -1,6 +1,8 @@
 # ChatAppIllustration
 A frontend mentor challenge to use HTML, CSS to make a chat app illustration.
 
+[Live Demo] -> https://luizabarros.github.io/chat-app-illustration/
+
 # Frontend Mentor - Chat app CSS illustration
 
 [Design preview for the Chat app CSS illustration coding challenge]
