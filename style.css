@@ -40,6 +40,17 @@ body {
     min-height: 100vh;
     min-width: 100vw;
     overflow: hidden;
+    animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -183,12 +194,34 @@ main.container .cellphone .chat .left-chat p {
     margin-bottom: .8rem;
     border-radius: 1rem 1rem 1rem 0;
     color: var(--left-chat-text);
+    animation: loading-left 1s;
+}
+
+@keyframes loading-left {
+    from {
+        transform: translateX(-50px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
 }
 
 main.container .cellphone .chat .right-chat {
     position: relative;
     right: -5rem;
     color: var(--right-chat);
+    animation: loading-right;
+}
+
+@keyframes loading-right {
+    from {
+        transform: translateX(50px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
 }
 
 main.container .cellphone .chat .right-chat .dog-pictures img {
