@@ -211,7 +211,7 @@ main.container .cellphone .chat .right-chat {
     position: relative;
     right: -5rem;
     color: var(--right-chat);
-    animation: loading-right;
+    animation: loading-right 1s;
 }
 
 @keyframes loading-right {
@@ -238,6 +238,10 @@ main.container .cellphone .chat .right-chat .text p {
     background: var(--white);
     margin: .8rem 0;
     border-radius: 1rem 1rem 0 1rem;
+}
+
+main.container .cellphone .chat .select-plan {
+    animation: loading-left 1s;    
 }
 
 main.container .cellphone .chat .select-plan .plan {
