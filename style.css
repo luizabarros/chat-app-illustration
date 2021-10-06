@@ -102,7 +102,7 @@ main.container {
     }
 }
 
-main.container .cellphone {
+.cellphone {
     background: var(--app-bg);
     border: 1.3rem solid var(--white);
     border-radius: 3rem;
@@ -112,7 +112,7 @@ main.container .cellphone {
     box-shadow: 1rem 1rem 3rem var(--app-box-shadow);
 }
 
-main.container .cellphone::before {
+.cellphone::before {
     content: '';
     background: var(--white);
     position: absolute;
@@ -122,7 +122,7 @@ main.container .cellphone::before {
     border-radius: 0 0 2rem 2rem;
 }
 
-main.container .cellphone .header::before {
+.cellphone .header::before {
     content: '\2039';
     color: var(--white);
     position: relative;
@@ -131,7 +131,7 @@ main.container .cellphone .header::before {
     font-weight: bold;
 }
 
-main.container .cellphone .header {
+.cellphone .header {
     background-image: linear-gradient(38deg, rgb(136, 56, 255) 44%, rgb(233, 66, 255) 88%);
     border-radius: 1.7rem 1.7rem 0 0;
     box-shadow: 0rem .5rem .4rem var(--box-shadow-header);
@@ -142,7 +142,7 @@ main.container .cellphone .header {
     padding-top: 2.2rem;
 }
 
-main.container .cellphone .header .vertical-ellipsis div {
+.header .vertical-ellipsis div {
     background: var(--white);
     width: .4rem;
     height: .4rem;
@@ -152,44 +152,44 @@ main.container .cellphone .header .vertical-ellipsis div {
     right: -17rem;
 }
 
-main.container .cellphone .header .profile-picture {
+.header .profile-picture {
     width: 3.2rem;
     margin-left: 4rem;
 }
 
-main.container .cellphone .header .profile-picture img {
+.header .profile-picture img {
     border-radius: 50%;
     border: .2rem solid var(--white);
 }
 
-main.container .cellphone .header .name-and-status {
+.header .name-and-status {
     padding-left: 1rem;
 }
 
-main.container .cellphone .header .name-and-status .name {
+.header .name-and-status .name {
     font-size: 1.25rem;
     font-weight: 500;
     color: var(--white);
 }
 
-main.container .cellphone .header .name-and-status .status {
+.header .name-and-status .status {
     color: var(--sub-heading);
     font-size: 1.1rem;
     padding-top: .3rem;
 }
 
-main.container .cellphone .chat {
+.cellphone .chat {
     padding: 1.5rem 1rem;
 }
 
-main.container .cellphone .chat .conversation p, .cellphone .chat .select-plan .plan {
+.chat .conversation p, .chat .select-plan .plan {
     width: 80%;
     padding: 1rem;
     font-size: 1.1rem;
     box-shadow: .1rem .2rem .5rem var(--box-shadow-chat);
 }
 
-main.container .cellphone .chat .left-chat p {
+.chat .left-chat p {
     background: var(--left-chat-bg);
     margin-bottom: .8rem;
     border-radius: 1rem 1rem 1rem 0;
@@ -207,7 +207,7 @@ main.container .cellphone .chat .left-chat p {
     }
 }
 
-main.container .cellphone .chat .right-chat {
+.chat .right-chat {
     position: relative;
     right: -5rem;
     color: var(--right-chat);
@@ -224,27 +224,27 @@ main.container .cellphone .chat .right-chat {
     }
 }
 
-main.container .cellphone .chat .right-chat .dog-pictures img {
+.chat .right-chat .dog-pictures img {
     display: inline-block;
     border-radius: 15%;
     width: 5.6rem;
 }
 
-main.container .cellphone .chat .right-chat .dog-pictures img + img {
+.chat .right-chat .dog-pictures img + img {
     margin-left: .5rem;
 }
 
-main.container .cellphone .chat .right-chat .text p {
+.chat .right-chat .text p {
     background: var(--white);
     margin: .8rem 0;
     border-radius: 1rem 1rem 0 1rem;
 }
 
-main.container .cellphone .chat .select-plan {
+.chat .select-plan {
     animation: loading-left 1s;    
 }
 
-main.container .cellphone .chat .select-plan .plan {
+.chat .select-plan .plan {
     background-image: linear-gradient(49deg, var(--gradient-light-magenta) 22%, var(--gradient-light-violet) 62%);
     margin-bottom: .8rem;
     border-radius: 1rem 1rem 1rem 0;
@@ -255,23 +255,23 @@ main.container .cellphone .chat .select-plan .plan {
     align-items: center;
 }
 
-main.container .cellphone .chat .select-plan .plan form {
+.chat .select-plan .plan form {
     display: inline-block;
 }
 
-main.container .cellphone .chat .select-plan .plan form label {
+.chat .select-plan .plan form label {
     position: relative;
     padding-left: .5rem;
     line-height: 1.4;
 }
 
-main.container .cellphone .chat .select-plan .plan label input {
+.chat .select-plan .plan label input {
     opacity: 0;
     width: 0;
     height: 0;
 }
 
-main.container .cellphone .chat .select-plan .plan label .radio-button {
+.chat .select-plan .plan label .radio-button {
     position: absolute;
     left: -1.5rem;
     height: 1.5rem;
@@ -281,20 +281,20 @@ main.container .cellphone .chat .select-plan .plan label .radio-button {
     cursor: pointer;
 }
 
-main.container .cellphone .chat .select-plan .plan label .radio-button:hover {
+.chat .select-plan .plan label .radio-button:hover {
     background: var(--gradient-light-violet);
 }
 
-main.container .cellphone .chat .select-plan .plan .price {
+.chat .select-plan .plan .price {
     font-size: 1.6rem;
     font-weight: 700;
 }
 
-main.container .cellphone .chat .type-a-message {
+.chat .type-a-message {
     position: relative;
 }
 
-main.container .cellphone .chat .type-a-message form input {
+.chat .type-a-message form input {
     outline: 0;
     border: 0;
     width: 100%;
@@ -302,7 +302,7 @@ main.container .cellphone .chat .type-a-message form input {
     border-radius: 1rem;
 }
 
-main.container .cellphone .chat .type-a-message form::before {
+.chat .type-a-message form::before {
     content: '\02F2';
     color: var(--white);
     position: absolute;
@@ -314,7 +314,7 @@ main.container .cellphone .chat .type-a-message form::before {
     cursor: pointer;
 }
 
-main.container .cellphone .chat .type-a-message form::after {
+.chat .type-a-message form::after {
     content: '';
     width: 3.5rem;
     height: 3.5rem;
@@ -326,7 +326,7 @@ main.container .cellphone .chat .type-a-message form::after {
     background: var(--submit-button-bg);
 }
 
-main.container .content {
+.content {
     max-width: 38rem;
     display: flex;
     flex-direction: column;
@@ -335,7 +335,7 @@ main.container .content {
 }
 
 @media only screen and (max-width: 860px) {
-    main.container .content {
+    .content {
         flex-direction: column;
         align-items: center;
         margin-left: 0;
@@ -344,18 +344,18 @@ main.container .content {
     }
 }
 
-main.container .content h1 {
+.content h1 {
     font-size: 3.2rem;
 }
 
-main.container .content p {
+.content p {
     color: var(--paragraph);
     font-size: 1.6rem;
     margin-top: 2.6rem;
 }
 
 @media only screen and (max-width: 450px) {
-    main.container .content p {
+    .content p {
         max-width: 30rem;
     }
 }
